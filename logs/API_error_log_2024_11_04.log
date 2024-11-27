@@ -1,0 +1,76 @@
+2024-11-04 11:22:55 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:22:55 ERROR Cannot read properties of undefined (reading 'additionalHour')
+{}
+TypeError: Cannot read properties of undefined (reading 'additionalHour')
+    at createAd (C:\Companion\controller\vendorController.js:326:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-04 11:23:54 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:23:54 ERROR Cannot read properties of undefined (reading 'additionalHour')
+{}
+TypeError: Cannot read properties of undefined (reading 'additionalHour')
+    at createAd (C:\Companion\controller\vendorController.js:326:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-04 11:29:13 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:29:13 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"},"verificationAds":{"name":"ValidatorError","message":"`Verified User` is not a valid enum value for path `verificationAds`.","properties":{"message":"`Verified User` is not a valid enum value for path `verificationAds`.","type":"enum","enumValues":["regular","vip","feature"],"path":"verificationAds","value":"Verified User"},"kind":"enum","path":"verificationAds","value":"Verified User"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:29:40 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:29:40 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"},"verificationAds":{"name":"ValidatorError","message":"`Verified User` is not a valid enum value for path `verificationAds`.","properties":{"message":"`Verified User` is not a valid enum value for path `verificationAds`.","type":"enum","enumValues":["regular","vip","feature"],"path":"verificationAds","value":"Verified User"},"kind":"enum","path":"verificationAds","value":"Verified User"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:29:59 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:29:59 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"},"verificationAds":{"name":"ValidatorError","message":"`Verified User` is not a valid enum value for path `verificationAds`.","properties":{"message":"`Verified User` is not a valid enum value for path `verificationAds`.","type":"enum","enumValues":["regular","vip","feature"],"path":"verificationAds","value":"Verified User"},"kind":"enum","path":"verificationAds","value":"Verified User"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:30:23 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:30:23 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"},"verificationAds":{"name":"ValidatorError","message":"`Verified User` is not a valid enum value for path `verificationAds`.","properties":{"message":"`Verified User` is not a valid enum value for path `verificationAds`.","type":"enum","enumValues":["regular","vip","feature"],"path":"verificationAds","value":"Verified User"},"kind":"enum","path":"verificationAds","value":"Verified User"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:31:05 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:31:05 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"},"verificationAds":{"name":"ValidatorError","message":"`Verified User` is not a valid enum value for path `verificationAds`.","properties":{"message":"`Verified User` is not a valid enum value for path `verificationAds`.","type":"enum","enumValues":["regular","vip","feature"],"path":"verificationAds","value":"Verified User"},"kind":"enum","path":"verificationAds","value":"Verified User"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`., verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:31:15 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:31:15 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:31:44 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:31:44 ERROR ads validation failed: gender: `Female` is not a valid enum value for path `gender`.
+{"errors":{"gender":{"name":"ValidatorError","message":"`Female` is not a valid enum value for path `gender`.","properties":{"message":"`Female` is not a valid enum value for path `gender`.","type":"enum","enumValues":["male","female","other"],"path":"gender","value":"Female"},"kind":"enum","path":"gender","value":"Female"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: gender: `Female` is not a valid enum value for path `gender`."}
+ValidationError: ads validation failed: gender: `Female` is not a valid enum value for path `gender`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 
+2024-11-04 11:37:43 ERROR There was an issue while attempting to create the ad. 
+2024-11-04 11:37:43 ERROR ads validation failed: verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+{"errors":{"verificationAds":{"name":"ValidatorError","message":"`Verified User` is not a valid enum value for path `verificationAds`.","properties":{"message":"`Verified User` is not a valid enum value for path `verificationAds`.","type":"enum","enumValues":["regular","vip","feature"],"path":"verificationAds","value":"Verified User"},"kind":"enum","path":"verificationAds","value":"Verified User"}},"_message":"ads validation failed","name":"ValidationError","message":"ads validation failed: verificationAds: `Verified User` is not a valid enum value for path `verificationAds`."}
+ValidationError: ads validation failed: verificationAds: `Verified User` is not a valid enum value for path `verificationAds`.
+    at Document.invalidate (C:\Companion\node_modules\mongoose\lib\document.js:3192:32)
+    at C:\Companion\node_modules\mongoose\lib\document.js:2980:17
+    at C:\Companion\node_modules\mongoose\lib\schematype.js:1350:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) 

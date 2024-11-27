@@ -1,0 +1,11 @@
+2024-11-13 17:29:03 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-13 17:29:03 ERROR getaddrinfo ENOTFOUND ac-9qonruf-shard-00-02.9euhyzl.mongodb.net
+{"message":"getaddrinfo ENOTFOUND ac-9qonruf-shard-00-02.9euhyzl.mongodb.net","reason":{"type":"ReplicaSetNoPrimary","servers":{},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-azjnll-shard-0","maxElectionId":"7fffffff000000000000019a","maxSetVersion":152,"commonWireVersion":0,"logicalSessionTimeoutMinutes":30}}
+MongooseServerSelectionError: getaddrinfo ENOTFOUND ac-9qonruf-shard-00-02.9euhyzl.mongodb.net
+    at Model.$wrapCallback (C:\Companion\node_modules\mongoose\lib\model.js:5380:32)
+    at C:\Companion\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Companion\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Companion\node_modules\mongoose\lib\query.js:5020:15) 

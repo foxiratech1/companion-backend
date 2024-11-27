@@ -1,0 +1,126 @@
+2024-11-07 12:38:43 ERROR Error while register the user information 
+2024-11-07 12:38:43 ERROR sendMail is not defined
+{}
+ReferenceError: sendMail is not defined
+    at sendForgotPasswordOTP (C:\Companion\controller\vendorController.js:134:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-07 12:39:22 ERROR Error while register the user information 
+2024-11-07 12:39:22 ERROR sendMail is not defined
+{}
+ReferenceError: sendMail is not defined
+    at sendForgotPasswordOTP (C:\Companion\controller\vendorController.js:134:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-07 12:39:52 ERROR Error while register the user information 
+2024-11-07 12:39:52 ERROR vendor.status is not a function
+{}
+TypeError: vendor.status is not a function
+    at sendForgotPasswordOTP (C:\Companion\controller\vendorController.js:142:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-07 12:40:33 ERROR Error while register the user information 
+2024-11-07 12:40:33 ERROR Operation `authvendors.findOne()` buffering timed out after 10000ms
+{}
+MongooseError: Operation `authvendors.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Companion\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:175:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) 
+2024-11-07 15:38:16 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 15:38:16 ERROR Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+{"message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"type":"ReplicaSetNoPrimary","servers":{},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-azjnll-shard-0","maxElectionId":"7fffffff0000000000000197","maxSetVersion":146,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Companion\node_modules\mongoose\lib\model.js:5380:32)
+    at C:\Companion\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Companion\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Companion\node_modules\mongoose\lib\query.js:5020:15) 
+2024-11-07 15:38:19 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 15:38:19 ERROR Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+{"message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"type":"ReplicaSetNoPrimary","servers":{},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-azjnll-shard-0","maxElectionId":"7fffffff0000000000000197","maxSetVersion":146,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Companion\node_modules\mongoose\lib\model.js:5380:32)
+    at C:\Companion\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Companion\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Companion\node_modules\mongoose\lib\query.js:5020:15) 
+2024-11-07 15:38:45 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 15:38:45 ERROR Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+{"message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"type":"ReplicaSetNoPrimary","servers":{},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-azjnll-shard-0","maxElectionId":"7fffffff0000000000000197","maxSetVersion":146,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Companion\node_modules\mongoose\lib\model.js:5380:32)
+    at C:\Companion\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Companion\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Companion\node_modules\mongoose\lib\query.js:5020:15) 
+2024-11-07 15:39:02 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 15:39:02 ERROR Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+{"message":"Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"type":"ReplicaSetNoPrimary","servers":{},"stale":false,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"setName":"atlas-azjnll-shard-0","maxElectionId":"7fffffff0000000000000197","maxSetVersion":146,"commonWireVersion":0,"logicalSessionTimeoutMinutes":null}}
+MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Companion\node_modules\mongoose\lib\model.js:5380:32)
+    at C:\Companion\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Companion\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Companion\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Companion\node_modules\mongoose\lib\query.js:5020:15) 
+2024-11-07 18:27:41 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 18:27:41 ERROR city is not defined
+{}
+ReferenceError: city is not defined
+    at adsList (C:\Companion\controller\vendorController.js:503:5)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Companion\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Companion\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Companion\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Companion\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Companion\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Companion\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Companion\node_modules\express\lib\router\index.js:47:12) 
+2024-11-07 18:27:47 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 18:27:47 ERROR city is not defined
+{}
+ReferenceError: city is not defined
+    at adsList (C:\Companion\controller\vendorController.js:503:5)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Companion\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Companion\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Companion\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Companion\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Companion\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Companion\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Companion\node_modules\express\lib\router\index.js:47:12) 
+2024-11-07 18:28:09 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 18:28:09 ERROR city is not defined
+{}
+ReferenceError: city is not defined
+    at adsList (C:\Companion\controller\vendorController.js:503:5)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Companion\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Companion\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Companion\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Companion\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Companion\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Companion\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Companion\node_modules\express\lib\router\index.js:47:12) 
+2024-11-07 18:28:23 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-07 18:28:23 ERROR city is not defined
+{}
+ReferenceError: city is not defined
+    at adsList (C:\Companion\controller\vendorController.js:503:5)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Companion\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Companion\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Companion\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Companion\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Companion\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Companion\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Companion\node_modules\express\lib\router\index.js:47:12) 
+

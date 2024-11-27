@@ -1,0 +1,34 @@
+2024-11-08 11:37:04 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-08 11:37:04 ERROR mongoose is not defined
+{}
+ReferenceError: mongoose is not defined
+    at adsList (C:\Companion\controller\vendorController.js:502:31)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Companion\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Companion\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Companion\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Companion\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Companion\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Companion\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Companion\node_modules\express\lib\router\index.js:47:12) 
+2024-11-08 11:37:56 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-08 11:37:56 ERROR Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+{}
+BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+    at new BSONTypeError (C:\Companion\node_modules\bson\lib\error.js:41:28)
+    at new ObjectId (C:\Companion\node_modules\bson\lib\objectid.js:67:23)
+    at adsList (C:\Companion\controller\vendorController.js:503:27)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Companion\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Companion\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Companion\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Companion\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Companion\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Companion\node_modules\express\lib\router\index.js:280:10) 
+2024-11-08 11:53:53 ERROR There was an issue while trying to retrieve the ads list 
+2024-11-08 11:53:53 ERROR condition is not defined
+{}
+ReferenceError: condition is not defined
+    at adsList (C:\Companion\controller\vendorController.js:521:31) 
+

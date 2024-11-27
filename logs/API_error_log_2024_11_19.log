@@ -1,0 +1,7 @@
+2024-11-19 14:31:19 ERROR There was an issue while attempting to create the ad. 
+2024-11-19 14:31:19 ERROR Cannot read properties of undefined (reading 'split')
+{}
+TypeError: Cannot read properties of undefined (reading 'split')
+    at createAd (C:\Companion\controller\vendorController.js:384:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+

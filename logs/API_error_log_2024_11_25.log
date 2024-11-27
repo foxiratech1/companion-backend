@@ -1,0 +1,19 @@
+2024-11-25 10:51:46 ERROR Error while getting ads detail 
+2024-11-25 10:51:46 ERROR ad.create is not a function
+{}
+TypeError: ad.create is not a function
+    at adsDetail (C:\Companion\controller\vendorController.js:631:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-25 10:51:55 ERROR Error while getting ads detail 
+2024-11-25 10:51:55 ERROR ad.create is not a function
+{}
+TypeError: ad.create is not a function
+    at adsDetail (C:\Companion\controller\vendorController.js:631:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-11-25 10:53:12 ERROR Error while getting ads detail 
+2024-11-25 10:53:12 ERROR ad.create is not a function
+{}
+TypeError: ad.create is not a function
+    at adsDetail (C:\Companion\controller\vendorController.js:631:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+

@@ -1,0 +1,30 @@
+2024-10-28 11:12:56 ERROR There was an issue while attempting to create the ad. 
+2024-10-28 11:12:56 ERROR Cannot read properties of undefined (reading 'file')
+{}
+TypeError: Cannot read properties of undefined (reading 'file')
+    at createAd (C:\Companion\controller\vendorController.js:137:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-10-28 11:35:23 ERROR There was an issue while attempting to create the ad. 
+2024-10-28 11:35:23 ERROR Cannot read properties of undefined (reading 'oneHour')
+{}
+TypeError: Cannot read properties of undefined (reading 'oneHour')
+    at createAd (C:\Companion\controller\vendorController.js:158:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-10-28 11:35:59 ERROR There was an issue while attempting to create the ad. 
+2024-10-28 11:35:59 ERROR Cannot read properties of undefined (reading 'oneHour')
+{}
+TypeError: Cannot read properties of undefined (reading 'oneHour')
+    at createAd (C:\Companion\controller\vendorController.js:158:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-10-28 11:36:42 ERROR There was an issue while attempting to create the ad. 
+2024-10-28 11:36:42 ERROR Cannot read properties of undefined (reading 'oneHour')
+{}
+TypeError: Cannot read properties of undefined (reading 'oneHour')
+    at createAd (C:\Companion\controller\vendorController.js:159:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2024-10-28 11:37:20 ERROR There was an issue while attempting to create the ad. 
+2024-10-28 11:37:20 ERROR Cannot read properties of undefined (reading 'oneHour')
+{}
+TypeError: Cannot read properties of undefined (reading 'oneHour')
+    at createAd (C:\Companion\controller\vendorController.js:159:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) 
